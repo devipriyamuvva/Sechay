@@ -11,5 +11,5 @@ function isLoggedIn() {
 }
 function logout() {
     sessionStorage.removeItem('userSession');
-    window.location.href = 'http://127.0.0.1:5500/Login/login.html';
+    window.location.href = './login.html';
 }
