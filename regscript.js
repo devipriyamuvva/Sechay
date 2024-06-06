@@ -109,7 +109,6 @@ function validateRegistration(){
     var usersData=JSON.stringify(userData);
 
     localStorage.setItem("uinfo",usersData);
-    sessionStorage.setItem("userinfo",usersData);
 
     alert("Registration Successful !");
     return true;
