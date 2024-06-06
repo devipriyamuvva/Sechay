@@ -1,0 +1,111 @@
+.UN,.PWD{
+    font-weight: bold;
+    font-size:30px;
+    font-family: cursive;
+}
+h2{
+    text-align:center;
+    font-size:40px;
+    font-family: cursive;
+}
+form{
+    text-align: center;
+}
+input{
+    width:300px;
+    height:40px;
+    font-family: cursive;
+    font-size: 20px;
+    border:3px solid black;
+    border-radius: 7px;
+}
+header{
+    background-color: black;
+    padding:1px;
+    margin:-10px;
+}
+button{
+    font-size:20px;
+    background-size: contain;
+    margin:3px;
+    padding:10px;
+    width:100px;
+    font-family: cursive;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+}
+li{
+    margin-top: 40px;
+    margin-right:10px;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color:white;
+    font-size:30px;
+    font-weight: bolder;
+    margin-right:auto;
+    margin-top: auto;
+    font-family:cursive;
+}
+.items{
+    font-size: 20px;
+    color:black;
+    font-weight:bold;
+    font-family: cursive;
+}
+footer {
+    background-color:black;
+    color:white;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    margin:-10px;
+  }
+.contacts{
+    text-align: center;
+    font-size: 15px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+.register{
+    margin-top: 0;
+    text-decoration:underline;
+    color:black;
+    font-size:20px;
+    text-align:center;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.img{
+    background-image: url(bgi.jpg);
+    color:black;
+    text-align: center;
+    background-size: cover;
+    padding:20px;
+    margin:-10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.error{
+    color:red;
+    font-size: 15px;
+    padding-left:90px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.forgotpwd{
+    margin-top: 0;
+    text-decoration:underline;
+    color:black;
+    font-size:20px;
+    text-align:center;
+    font-family: cursive;
+    font-weight: bolder;
+}

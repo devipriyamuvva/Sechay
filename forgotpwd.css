@@ -1,0 +1,104 @@
+header{
+    background-color: black;
+    padding:1px;
+    margin:-10px;
+}
+button{
+    font-size:20px;
+    background-size: contain;
+    margin:3px;
+    padding:10px;
+    width:100px;
+    font-family: cursive;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+}
+li{
+    margin-top: 40px;
+    margin-right:10px;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color:white;
+    font-size:30px;
+    font-weight: bolder;
+    margin-right:auto;
+    margin-top: auto;
+    font-family:cursive;
+}
+.items{
+    font-size: 20px;
+    color:black;
+    font-weight:bold;
+    font-family: cursive;
+}
+footer {
+    background-color:black;
+    color:white;
+    padding: 10px 0;
+    bottom: 0;
+    width: 105%;
+    margin:-10px;
+  }
+.contacts{
+    text-align: center;
+    font-size: 15px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size:20px;
+    margin:0 auto;
+    width:80%
+}
+form label{
+        width:40%;
+        text-align:left;
+        margin-bottom: 10px;
+}
+input{
+    width:300px;
+    height:40px;
+    font-family: cursive;
+    font-size: 20px;
+    border:3px solid black;
+    border-radius: 7px;
+}
+button{
+    font-size:20px;
+    background-size: contain;
+    margin:3px;
+    padding:10px;
+    width:100px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.pwd{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+.UN,.PWD{
+    font-size:20px;
+    font-family: cursive;
+    text-align: left;
+}
+.sub{
+    width:auto;
+}
+.error{
+    color:red;
+    font-size: 15px;
+}

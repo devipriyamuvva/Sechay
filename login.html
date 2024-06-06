@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sechay : Login </title>
+    <link rel="stylesheet" href="loginstyle.css"></link>
+    <script src="loginscript.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li class="title"><h1>SECHAY</h1></li>
+            <li><button><a href="http://127.0.0.1:5500/Home/home.html" class="items">Home</a></button></li>
+            <li><button><a href="http://127.0.0.1:5500/Careers/careers.html" class="items">Careers</a></button></li>
+            <li><button><a href="http://127.0.0.1:5500/Blogs/blog.html#" class="items">Blog</a></button></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <section class="img">
+        <h1>Welcome to our login page !!</h1>
+    </section>
+
+    <br><br>
+    
+    <form class="loginform" onsubmit="return validateLogin()" action="http://127.0.0.1:5500/Careers/careers.html">
+        <label class="UN">Username </label>
+        <input type="email" id="username"> </input>
+        <div id="unError" class="error"></div>
+        <br>
+        <br>
+        <label class="PWD">Password </label>
+        <input type="password" id="password"></input>
+        <div id="pwdError" class="error"></div>
+        <br>
+        <br>
+        <button type="submit">Login</button>
+        <br>
+        <br>
+    </form>
+    
+    <h3 class="forgotpwd"><a href="http://127.0.0.1:5500/Forgot%20Password/forgotpwd.html" class="forgotpwd">Forgot Password?</a></h3>
+    <h3 class="register" style="text-decoration: none;">Not a member? <a href="http://127.0.0.1:5500/Registration/register.html" class="register">Register Now</a></h3>
+    <footer class="contacts">
+        <h4>CONTACT<br> Mobile : 8297066243 , Email : info@sechay.com</h4>
+        <p>&copy; 2024 Sechay Solutions India Private Limited. All rights reserved.</p>
+    </footer>
+</body>
+</html>

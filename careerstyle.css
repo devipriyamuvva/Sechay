@@ -1,0 +1,136 @@
+header{
+    background-color: black;
+    padding:1px;
+    margin:-10px;
+}
+button{
+    font-size:20px;
+    background-size: contain;
+    margin:3px;
+    padding:10px;
+    width:100px;
+    font-family: cursive;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+}
+li{
+    margin-top: 40px;
+    margin-right:10px;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color:white;
+    font-size:30px;
+    font-weight: bolder;
+    margin-right:auto;
+    margin-top: auto;
+    font-family:cursive;
+}
+.items{
+    font-size: 20px;
+    color:black;
+    font-weight:bold;
+    font-family: cursive;
+}
+footer {
+    background-color:black;
+    color:white;
+    padding: 10px 0;
+    bottom: 0;
+    width: 105%;
+    margin:-10px;
+  }
+.contacts{
+    text-align: center;
+    font-size: 15px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+.img{
+    background-image: url(bgi.jpg);
+    color:black;
+    text-align: center;
+    background-size: cover;
+    padding:20px;
+    margin:-10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.job1{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    border:5px solid black;
+    border-radius: 10px;
+    width:1000px;
+    margin-left:250px;
+}
+.openings{
+    font-size:30px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.desc1 {
+    display: none;
+}
+.role1{
+    font-family: cursive;
+    padding-left:20px;
+}
+.job1:hover .desc1{
+    display: flex;
+    flex-direction:column;
+    list-style-type: disc;
+    font-family: cursive;
+}
+.job2{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    border:5px solid black;
+    border-radius: 10px;
+    width:1000px;
+    margin-left:250px;
+}
+.desc2 {
+    display: none;
+}
+.role2{
+    font-family: cursive;
+    padding-left:20px;
+}
+.job2:hover .desc2{
+    display: flex;
+    flex-direction:column;
+    list-style-type: disc;
+    font-family: cursive;
+}
+.job3{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    border:5px solid black;
+    border-radius: 10px;
+    width:1000px;
+    margin-left:250px;
+}
+.desc3 {
+    display: none;
+}
+.role3{
+    font-family: cursive;
+    padding-left:20px;
+}
+.job3:hover .desc3{
+    display: flex;
+    flex-direction:column;
+    list-style-type: disc;
+    font-family: cursive;
+}

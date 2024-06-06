@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sechay : Forgot Password</title>
+    <link rel="stylesheet" href="forgotpwd.css"></link>
+    <script src="forgotpwd.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li class="title"><h1>SECHAY</h1></li>
+            <li><button><a href="http://127.0.0.1:5500/Home/home.html" class="items">Home</a></button></li>
+            <li><button><a href="http://127.0.0.1:5500/Login/login.html" class="items">Login</a></button></li>
+            <li><button><a href="http://127.0.0.1:5500/Registration/register.html" class="items">Register</a></button></li>
+            <li><button><a href="http://127.0.0.1:5500/Blogs/blog.html" class="items">Blog</a></button></li>
+        </ul>
+        </nav>
+    </header>
+
+    <br>
+    <h1 class="pwd">Forgot Password</h1>
+    <form class="forgotpwdform" onsubmit="return validate()" action="http://127.0.0.1:5500/Login/login.html">
+        <label class="UN">Username   </label>
+        <input type="email" id="username"> </input>
+        <div id="unError" class="error"></div>
+        <br>
+        <label class="PWD"> New Password   </label>
+        <input type="password" id="password"></input>
+        <div id="pwdError1" class="error"></div>
+        <br>
+        <label class="PWD"> Confirm Password   </label>
+        <input type="password" id="conpassword"></input>
+        <div id="pwdError2" class="error"></div>
+        <br>
+        <button type="submit" class="sub">Change Password</button>
+        <br>
+        <br>
+    </form>
+
+    <footer class="contacts">
+        <h4>CONTACT<br> Mobile : 8297066243 , Email : info@sechay.com</h4>
+        <p>&copy; 2024 Sechay Solutions India Private Limited. All rights reserved.</p>
+    </footer>
+</body>
+</html>

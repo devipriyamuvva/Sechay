@@ -1,0 +1,60 @@
+header{
+    background-color: black;
+    padding:1px;
+    margin:-10px;
+}
+button{
+    font-size:20px;
+    background-size: contain;
+    margin:3px;
+    padding:10px;
+    width:100px;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+}
+li{
+    margin-top: 40px;
+    margin-right:10px;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color:white;
+    font-size:30px;
+    font-weight: bolder;
+    margin-right:auto;
+    margin-top: auto;
+    font-family:cursive;
+}
+.items{
+    font-size: 20px;
+    color:black;
+    font-weight:bold;
+    font-family: cursive;
+}
+.info{
+    text-align: center;
+    font-size:50px;
+    font-family:cursive;
+}
+footer {
+    background-color:black;
+    color:white;
+    padding: 10px 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    margin:-10px;
+  }
+.contacts{
+    text-align: center;
+    font-size: 15px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
